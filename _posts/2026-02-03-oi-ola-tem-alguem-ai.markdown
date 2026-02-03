@@ -5,7 +5,7 @@ date:   2026-02-03
 categories:
 ---
 
-# Oi... Olá... Tem alguém aí?
+# Oi... Olá...  Tem alguém aí?  🤔
 Esse é o início do meu pequeno blog.
 Fiquei com preguiça de fazer algo do zero, mas o template está funcional e bonito (isso que importa).
 

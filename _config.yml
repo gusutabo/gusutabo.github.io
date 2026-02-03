@@ -6,7 +6,7 @@ header_pages:
 
 style: nord
 
-footer: 'e-mail: gustavolinssm@gmail.com'
+footer: 'contato: gustavolinssm@gmail.com'
 
 # Build settings
 markdown: kramdown
