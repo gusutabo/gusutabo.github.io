@@ -1,15 +1,9 @@
 ---
-title: /
+title: /home
 layout: home
 permalink: /
 ---
 
-# Other Demo Pages
+# 👋 Seja bem-vindo(a)!
 
-[Dark](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/)
-[Light](https://b2a3e8.github.io/jekyll-theme-console-demo-light/)
-[Hacker](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/)
-
-# Welcome
-
-Bla bla bla bla. Bla bla bla bla bla bla bla bla.
+Este blog é um pequeno ambiente (quase um quartinho mental) onde eu posso organizar pensamentos, escrever alguns textos técnicos e, eventualmente, falar umas bobagens.
