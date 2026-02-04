@@ -33,7 +33,7 @@ Os algoritmos podem ser representados de diferentes maneiras:
 3. **Pseudocódigo** — instruções estruturadas, geralmente próximas da linguagem humana, usando um conjunto restrito de palavras-chave que tenham equivalentes na programação, usadas para representar o algoritmo.
 
 ### Pontos complementares
-Algoritmo é diferete de programa e também diferente de  linguagem de programação. Como já foi dito, o algoritmo é uma sequência finita de passos que levam à execução de uma tarefa. No caso, é uma descrição de como o problema pode ser resolvido (independente de linguagem de programação e de um computador).
+Algoritmo é diferente de programa e também diferente de  linguagem de programação. Como já foi dito, o algoritmo é uma sequência finita de passos que levam à execução de uma tarefa. No caso, é uma descrição de como o problema pode ser resolvido (independente de linguagem de programação e de um computador).
 
 Outro ponto é que o programa é a junção do algoritmo com a linguagem de programação, para que o computador consiga executar as ações.
 
