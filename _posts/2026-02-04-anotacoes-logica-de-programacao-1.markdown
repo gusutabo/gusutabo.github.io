@@ -11,7 +11,7 @@ categories:
 > A primeira (no caso, esta) falará sobre algoritmos. E a segunda? Ora… claro que sobre estrutura de dados, né?
 
 ## Algoritmo
-Algoritmo é uma sequência finita de passos que levam à execução de uma tarefa. Todos os programas de computador possuem algoritmos escritos em uma determinada linguagem de programação.
+O algoritmo é uma sequência finita de passos que levam à execução de uma tarefa. Todos os programas de computador possuem algoritmos escritos em uma determinada linguagem de programação.
 
 ### Características
 Qualquer coisa pode se chamar algoritmo desde que tenha uma sequência para realizar uma determinada ação, porém, para criarmos algoritmos bons, precisamos adotar algumas características fundamentais.
