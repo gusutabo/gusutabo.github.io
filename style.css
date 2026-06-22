@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Inter:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Special Elite", system-ui;
+  background: #DFD9CD;
+}
+
+p,
+.card-header span {
+  font-family: "Inter", sans-serif;
+}
+
+footer a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #000;
+}
+
+.portfolio {
+  min-height: 100vh;
+  padding: 1rem 10rem 0rem;
+  padding-right: 250px;
+  border-bottom: 14px solid #000;
+  position: relative;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-bottom: 4rem;
+  align-items: center;
+}
+
+.identity {
+  font-size: 30px;
+  text-align: center;
+}
+
+.identity p {
+  font-family: "Special Elite", system-ui;
+}
+
+.location {
+  text-align: right;
+  font-size: 30px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 2rem;
+  margin-bottom: 35px;
+}
+
+.row h2 {
+  font-size: 25px;
+}
+
+.row p,
+strong {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+
+.project-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-list a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+}
+
+.card {
+  height: 100%;
+  border: 1px solid #555;
+  padding: 1rem;
+  width: 270px;
+}
+
+.card p {
+  font-family: "Special Elite", system-ui;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.card-header span {
+  color: #fff;
+  background-color: #000;
+  padding: 0 4px;
+}
+
+.sun img {
+  width: 200px;
+  display: block;
+}
+
+.bird {
+  position: absolute;
+  right: 170px;
+  top: 250px;
+  width: 200px;
+}
+
+.cactus {
+  position: absolute;
+  right: 20px;
+  bottom: -2px;
+  width: 180px;
+}
+
+@media (max-width: 900px) {
+  .portfolio {
+    padding: 1.5rem 2rem 2rem;
+  }
+
+  .header {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .identity {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .location {
+    grid-column: 1 / -1;
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .sun img {
+    width: 140px;
+  }
+
+  .row h2 {
+    font-size: 20px;
+  }
+
+  .row p,
+  strong {
+    font-size: 17px;
+  }
+
+  .bird,
+  .cactus {
+    display: none;
+  }
+  
+  .card {
+    width: 220px;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolio {
+    padding: 1.5rem 1.25rem 2rem;
+  }
+
+  .header {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .sun {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sun img {
+    width: 110px;
+  }
+
+  .identity {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .location {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    margin-bottom: 25px;
+  }
+
+  .row h2 {
+    font-size: 18px;
+  }
+
+  .row p,
+  strong {
+    font-size: 15px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .project-list a {
+    width: 100%;
+  }
+
+  footer a {
+    font-size: 18px;
+  }
+
+  .bird,
+  .cactus {
+    display: none;
+  }
+}
